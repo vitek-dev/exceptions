@@ -1,0 +1,5 @@
+services:
+  qa:
+    image: ghcr.io/vitek-dev/qa:latest
+    volumes:
+      - './:/app'
