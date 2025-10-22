@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VitekDev\Exceptions\Resources;
+namespace VitekDev\Exceptions\Resource;
 
 /** @internal */
 trait TWithEntity
