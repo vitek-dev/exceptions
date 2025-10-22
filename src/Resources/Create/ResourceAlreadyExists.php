@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace VitekDev\Exceptions\Resources\Create;
 
-use VitekDev\Exceptions\Traits\TWithEntity;
-use VitekDev\Exceptions\Traits\TWithId;
+use VitekDev\Exceptions\Resources\TWithEntity;
+use VitekDev\Exceptions\Resources\TWithId;
 
 class ResourceAlreadyExists extends \Exception
 {
