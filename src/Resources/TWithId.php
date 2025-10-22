@@ -7,7 +7,7 @@ namespace VitekDev\Exceptions\Resources;
 /** @internal */
 trait TWithId
 {
-    public static function withId(mixed $identifier, ?\Throwable $previous): static
+    public static function withId(mixed $identifier, ?\Throwable $previous = null): static
     {
         return new static(
             sprintf(static::MSG_WITH_ID, $identifier),

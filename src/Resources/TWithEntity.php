@@ -7,7 +7,7 @@ namespace VitekDev\Exceptions\Resources;
 /** @internal */
 trait TWithEntity
 {
-    public static function withEntity(string $type, mixed $identifier, ?\Throwable $previous): self
+    public static function withEntity(string $type, mixed $identifier, ?\Throwable $previous = null): self
     {
         return new self(
             sprintf(static::MSG_WITH_ENTITY, $type, $identifier),
